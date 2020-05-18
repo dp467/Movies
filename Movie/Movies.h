@@ -8,6 +8,32 @@
 
 #ifndef Movies_h
 #define Movies_h
+#include "Movie.h"
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+class Movies{
+public:
+    
+    vector <Movie> mi;
+    
+    
+
+    
+   
+    bool add_movie (string name , int watched, string rating);
+    void display ();
+    
+  bool increment_movie(string name);
+    
+    
+    
 
 
+
+
+
+      };
 #endif /* Movies_h */
